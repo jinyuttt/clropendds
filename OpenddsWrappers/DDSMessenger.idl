@@ -1,0 +1,27 @@
+
+module DDSMessenger{
+
+  @topic
+  struct Message {
+    //来源
+    string from;
+    //主题
+    string subject;
+    @key long subject_id;
+    
+    //附属信息
+    string text;
+   
+    //传输内容
+    sequence <octet> content;
+
+    //域ID
+    long domain_id;
+  };
+@topic
+struct Heartbeat
+{
+    @key long use_id;
+    long index;
+};
+};
