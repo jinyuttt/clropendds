@@ -25,8 +25,8 @@
 // TAO_IDL - Generated from
 // E:\OpenDDS-3.31.0\ace_wrappers\tao\TAO_IDL\be\be_codegen.cpp:148
 
-#ifndef _TAO_IDL_DDSMESSENGERTYPESUPPORTC_LRQGOK_H_
-#define _TAO_IDL_DDSMESSENGERTYPESUPPORTC_LRQGOK_H_
+#ifndef _TAO_IDL_DDSMESSENGERTYPESUPPORTC_JLVOGW_H_
+#define _TAO_IDL_DDSMESSENGERTYPESUPPORTC_JLVOGW_H_
 
 #include /**/ "ace/pre.h"
 

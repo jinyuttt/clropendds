@@ -32,7 +32,7 @@
 #ifdef OPENDDS_IDL_FILE_SPECIFIC
 #  undef OPENDDS_IDL_FILE_SPECIFIC
 #endif
-#define OPENDDS_IDL_FILE_SPECIFIC(base, index) opendds_idl_generated_ddsmessengertypesupportimpl_cpp_8heqr1##_##base##index
+#define OPENDDS_IDL_FILE_SPECIFIC(base, index) opendds_idl_generated_ddsmessengertypesupportimpl_cpp_281ta8##_##base##index
 
 
 

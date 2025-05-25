@@ -606,6 +606,7 @@
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="cpp.hint" />
     <None Include="DDS.mpc" />
   </ItemGroup>
   <ItemGroup>
