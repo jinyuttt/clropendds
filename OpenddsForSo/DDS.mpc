@@ -1,0 +1,23 @@
+project(*OpenddsWrappers): dcps {
+
+  sharedname     = OpenddsForSo
+  dynamicflags   = HELLOMSGCOMMON_BUILD_DLL
+  after  += *idl
+  TypeSupport_Files {
+    DDSMessenger.idl
+  }
+  Header_Files {
+  OpenddsExportForSo.h
+  DataReaderListenerImpl.h
+  Publisher.h
+  Subscriber.h
+  Subscriber.h
+  }
+  Source_Files {
+   
+    DataReaderListenerImpl.cpp
+    OpenddsExportForSo.cpp
+  }
+}
+
+
